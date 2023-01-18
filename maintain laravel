@@ -11,3 +11,25 @@ Route::get('run', function () {
     \Artisan::call('storage:link');
     dd('Done');
 });
+
+
+// Route::get('/updateapp', function()
+// {
+//     \Artisan::call('dump-autoload');
+//     echo 'dump-autoload complete';
+// });
+
+// Route::get('/migrar', function () {
+   
+//         $exitCode = Artisan::call('migrate:refresh', [
+//         '--force' => true,
+//         ]);
+//         dd($exitCode);
+    
+// });
+
+// Route::get('/test/env', function () {
+//     dd(env('DB_DATABASE')); // Dump 'db' variable value one by one
+// });
+
+
